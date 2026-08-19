@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 300px;
+        height: 300px;
+        border: 1px solid;
+        background-color: rgb(6, 146, 227);
+        justify-self: center;
+
+    }
+</style>
+<body>
+    
+    <div class="box">
+        <center><h4>Online Shop</h4>
+        <div>
+            Tea:500
+        </div>
+        <br>
+        <div>
+            sugar:300
+        </div>
+        <br>
+        <div>
+            Coffee:400
+        </div>
+        <br>
+        <div>
+            Chips:150
+        </div>
+        <br>
+        <div>
+            Biscuit:300
+        </div><br>
+        </center>
+
+        
+    <center><button onclick="add()">Buy Now</button></center>
+
+    </div>
+    <script>
+      
+        function add(){
+            let a=prompt("Enter your product name");
+            let b=prompt("Enter your Quantity");
+            
+             document.write("Your total Aamount is = " + item[a]*b);
+           
+        }
+      
+          const item={
+            Tea:500,
+            sugar:300,
+            Coffee:400,
+            Chips:150,
+            Biscuit:300
+        }
+        
+        
+        
+    </script>
+   
+</body>
+</html>
